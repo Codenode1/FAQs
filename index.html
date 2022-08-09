@@ -5,138 +5,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>StyleFlow</title>
 </head>
 
 <body>
 
-    <header>
+    <div id="wrapper">
 
-        <nav id="navbar">
+        <header>
 
-            <img src="images/Logo Vector.png" alt="StyleFlow Logo" id="logo">
+            <div id="header-top" class="flex">
+                <img src="./images/logos/Logo Vector.png" alt="StyleFlow logo" id="logo">
+                <div id="menu">
+                    <ul id="nav-links" class="flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Animation</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                    <ul id="auth" class="flex">
+                        <li><a href="#"><button id="login" class="btn">Login</button></a></li>
+                        <li><a href="#"><button id="signup" class="btn">Sign Up</button></a></li>
+                    </ul>
+                </div>
+                <button id="menu-btn" onclick="displayMenu()">&#9776;</button>
+                <button id="menu-btn-x" onclick="displayMenu()">&#10005;</button>
 
-            <ul id="nav-link">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Animations</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Documentation</a></li>
-            </ul>
-
-            <div id="logins">
-                <a href="#" id="log-in">Login</a>
-                <a href="#" class="link-btns">Sign Up</a>
             </div>
-    </header>
+        </header>
 
-    <main>
-        <img src="./images/Illustration for FAQs page_FAQs-amico.svg" alt="Fun and Interactive" id="illustration">
+        <main>
+            <img src="./images/Illustration for FAQs page_FAQs-amico.svg" alt="Fun and Interactive" id="illustration">
+            <div>
 
-        <div id="header">FAQs</div>
+            </div>
+            <div id="header">FAQs</div>
 
-        <div id="questions">
-            <ol>
-                <li>Who do I talk to if I have Questions?</li>
-                <li>How can I download Styleflow library?</li>
-                <li>How can I use basic animations on HTML elements?</li>
-                <li>Can I add intensity to my animations?</li>
-                <li>How can I report whaen someone has plagiarised my work and upload it?</li>
-            </ol>
-        </div>
+            <div id="questions">
+                <ol>
+                    <li>Who do I talk to if I have Questions?</li>
+                    <li>How can I download Styleflow library?</li>
+                    <li>How can I use basic animations on HTML elements?</li>
+                    <li>Can I add intensity to my animations?</li>
+                    <li>How can I report whaen someone has plagiarised my work and upload it?</li>
+                </ol>
+            </div>
 
-        <div class="spacing3"></div>
+            <div class="spacing3"></div>
 
-        <div >
-            <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
-            <h3 class="headings">Who do I talk to if I have Questions?</h3>
-        </div>
+            <div>
+                <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
+                <h3 class="headings">Who do I talk to if I have Questions?</h3>
+            </div>
 
-        <div class="spacing1"></div>
+            <div class="spacing1"></div>
 
-        <div class="answers">
-            <p>The best place to receive assistance is in our support forums. If you have a
-                private matter to discus simply complete the form on our contact page.
-                We willrespond promptly.</p>
-        </div>
+            <div class="answers">
+                <p>The best place to receive assistance is in our support forums. If you have a
+                    private matter to discus simply complete the form on our contact page.
+                    We willrespond promptly.</p>
+            </div>
 
-        <div class="spacing2"></div>
+            <div class="spacing2"></div>
 
-        <div >
-            <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
-            <h3 class="headings">How can I download Styleflow library?</h3>
-        </div>
+            <div>
+                <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
+                <h3 class="headings">How can I download Styleflow library?</h3>
+            </div>
 
-        <div class="spacing1"></div>
+            <div class="spacing1"></div>
 
-        <div class="answers">
-            <p>To download styleflow library, sign up to styleflow website or sign in if you are already registered.
-                Then go to the library page and download the library zip files from the library page.
+            <div class="answers">
+                <p>To download styleflow library, sign up to styleflow website or sign in if you are already registered.
+                    Then go to the library page and download the library zip files from the library page.
+                </p>
+            </div>
+
+            <div class="spacing2"></div>
+
+            <div>
+                <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
+                <h3 class="headings">How can I use basic animations on HTML elements?</h3>
+            </div>
+
+            <div class="spacing1"></div>
+
+            <div class="answers">
+                <p>To use our animations on your projects, you will have to add the library to the same folder’s
+                    directory.
+                    Then add the name of the library file “styleflow.css” to the link tag of your html head.
+                    After this, you can
+                    then include the different styles to the class of tags you wish to animate.</p>
+            </div>
+
+            <div class="spacing2"></div>
+
+
+            <div>
+                <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
+                <h3 class="headings">Can I add intensity to my animations?</h3>
+            </div>
+
+            <div class="spacing1"></div>
+
+            <div class="answers">
+                <p>Yes! you can add intensity to your animations by adjusting the animations to suit your satisfaction.
+                </p>
+            </div>
+
+            <div>
+                <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
+                <h3 class="headings">How can I report when someone has plagiarised my work and uploaded it?</h3>
+            </div>
+
+
+            <div class="spacing1"></div>
+
+
+            <div class="answers">
+                <p>If someone is claiming your work is their own on StyleFlow, please report the animation and
+                    provide a link to the original animation so we can verify it.</p>
+            </div>
+
+            <div class="spacing2"></div>
+
+        </main>
+        <footer>
+            <img src="./images/logos/Logo Vector.png" alt="Footer Logo" id="logo">
+
+            <div class="r-align">
+                <a href="#"><button class="btn">Documentation</button></a>
+            </div>
+
+            <p id="copy" class="txt-center">
+                Copyright &copy 2022 StyleFlow Inc. All rights reserved.
             </p>
-        </div>
 
-        <div class="spacing2"></div>
-        
-        <div >
-            <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
-            <h3 class="headings">How can I use basic animations on HTML elements?</h3>
-        </div>
+            <div id="footer-links" class="flex">
+                <a href="#">Privacy Policy</a>
+                <hr>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </footer>
 
-        <div class="spacing1"></div>
-
-        <div class="answers">
-            <p>To use our animations on your projects, you will have to add the library to the same folder’s
-                directory.
-                Then add the name of the library file “styleflow.css” to the link tag of your html head.
-                After this, you can
-                then include the different styles to the class of tags you wish to animate.</p>
-        </div>
-
-        <div class="spacing2"></div>
-
-        
-        <div >
-            <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
-            <h3 class="headings">Can I add intensity to my animations?</h3>
-        </div>
-
-        <div class="spacing1"></div>
-
-        <div class="answers">
-            <p>Yes! you can add intensity to your animations by adjusting the animations to suit your satisfaction.</p>
-        </div>
-
-        <div class="spacing2"></div>
-
-        <div >
-            <img src="./images/Logo Illustration for Animation Page.png" alt="" class="small-logo">
-            <h3 class="headings">How can I report when someone has plagiarised my work and uploaded it?</h3>
-        </div>
-
-        <div class="spacing1"></div>
-
-        <div class="answers">
-            <p>If someone is claiming your work is their own on StyleFlow, please report the animation and
-                provide a link to the original animation so we can verify it.</p>
-        </div>
-
-        <div class="spacing2"></div>
-
-    </main>
-    <footer>
-        <img src="./images/Logo Vector.png" alt="StyleFlow logo" id="logo">
-        <div>
-            <a href="#" class="link-btns">Documentation</a>
-        </div>
-        <p class="copyright">Copyright &copy 2022 StyleFlow Inc. All rights reserved.</p>
-        <div id="footer-links">
-            <a href="#">Privacy Policy</a>
-            <hr>
-            <a href="#">Terms & Conditions</a>
-        </div>
-    </footer>
+    </div>
 
 
+    <script>
+        var menu = document.getElementById('menu');
+        var menuBtnX = document.getElementById('menu-btn-x');
+        var menuBtn = document.getElementById('menu-btn');
+
+        function displayMenu() {
+            if (menu.style.display === 'none') {
+                menu.style.display = 'block';
+                menuBtn.style.display = 'none';
+                menuBtnX.style.display = 'block';
+            } else {
+                menu.style.display = 'none';
+                menuBtn.style.display = 'block';
+                menuBtnX.style.display = 'none';
+            }
+        }
+    </script>
 </body>
+
 
 </html>
