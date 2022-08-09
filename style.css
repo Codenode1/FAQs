@@ -495,8 +495,7 @@ footer .btn {
   }
 
   #illustration {
-    margin-left: 200.94;
-    float: right;
+    float: right 200.94px;
     width: 25%;
     height: auto;
   }
