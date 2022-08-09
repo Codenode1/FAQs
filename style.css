@@ -496,8 +496,9 @@ footer .btn {
 
   #illustration {
     float: none;
+    margin-top: 70px;
     width: 25%;
-    height: auto;
+    height: 25%;
   }
 
   .answers {
