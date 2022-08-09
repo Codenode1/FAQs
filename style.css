@@ -497,7 +497,8 @@ footer .btn {
   #illustration {
     float: none;
     margin-top: 70px;
-    width: 25%;
+    margin-bottom: 0;
+    width: 40%;
     height: 25%;
   }
 
