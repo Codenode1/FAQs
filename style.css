@@ -503,6 +503,7 @@ footer .btn {
 
   #illustration {
     float: none;
+    margin-left: 150px;
     align-items: center;
     width: 40%;
     height: 25%;
