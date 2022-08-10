@@ -355,6 +355,7 @@ footer .btn {
     box-sizing: 0;
   }
   html {
+    width: 100%;
     font-size: 4.266666666666667vw; /* This will make the font-size to be 16px when the viewport width is 375px */
   }
 
