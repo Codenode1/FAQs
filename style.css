@@ -359,6 +359,7 @@ footer .btn {
   }
 
   body{
+    overflow: hidden;
     width: 100%;
   }
 
@@ -495,6 +496,7 @@ footer .btn {
   }
 
   .small-logo {
+    margin-right: 0;
     float: left;
     width: 20px;
     height: 30px;
