@@ -457,6 +457,7 @@ footer .btn {
   /* FAQs */
 
   #header {
+    margin-top: 0;
     width: 62px;
     height: 36px;
     font-style: normal;
@@ -503,8 +504,8 @@ footer .btn {
 
   #illustration {
     float: none;
-    margin-left: 200.94px;
-    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 20px;
     margin-bottom: 0;
     width: 40%;
     height: 25%;
