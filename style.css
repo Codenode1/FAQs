@@ -502,10 +502,8 @@ footer .btn {
   }
 
   #illustration {
-    width: 100%;
-    object-fit: contain;
     float: none;
-    margin-bottom: 0;
+    align-items: center;
     width: 40%;
     height: 25%;
   }
