@@ -475,75 +475,7 @@ footer .btn {
     color: hsla(0, 0%, 100%, 0.9);
   }
 
-  /* FAQs */
-
-
-  #header {
-    margin-top: 0;
-    width: 62px;
-    height: 36px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 36px;
-    color: #8b20bb;
-  }
-
-  #questions {
-    width: 75%;
-    height: 100px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 8px;
-    line-height: 20px;
-    color: #2b2b2b;
-  }
-
-  #questions li {
-    list-style-type: none;
-  }
-
-  .headings {
-    width: 218px;
-    height: 20px;
-    padding-left: 57.28px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
-    color: #8b20bb;
-    flex: none;
-    order: 1;
-  }
-
-  .small-logo {
   
-    float: left;
-    width: 20px;
-    height: 30px;
-  }
-
-  #illustration {
-    margin-left: 0;
-    justify-content: center;
-    width: 25%;
-    height: auto;
-  }
-
-  .answers {
-    width: 327px;
-    height: 48px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 8px;
-    line-height: 12px;
-    color: #2b2b2b;
-    flex: none;
-    order: 1;
-  }
 
   /* footer */
   footer {
