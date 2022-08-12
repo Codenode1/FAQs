@@ -243,6 +243,14 @@ footer .btn {
   #wrapper {
     width: 100%;
   }
+
+  #illustration {
+    margin-left: 0;
+    align-items: center;
+    width: 25%;
+    height: auto;
+  }
+
 }
 
 @media screen and (max-width: 920px) {
@@ -341,10 +349,24 @@ footer .btn {
     margin-left: 30px;
     text-align: left;
   }
+
+  #illustration {
+    margin-left: 0;
+    align-items: center;
+    width: 25%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 590px) {
   html {
     font-size: 1.5873015873015872vw;
+  }
+
+  #illustration {
+    margin-left: 0;
+    align-items: center;
+    width: 25%;
+    height: auto;
   }
 }
 /* Mobile View */
@@ -503,7 +525,12 @@ footer .btn {
     height: 30px;
   }
 
-
+  #illustration {
+    margin-left: 0;
+    align-items: center;
+    width: 25%;
+    height: auto;
+  }
 
   .answers {
     width: 327px;
