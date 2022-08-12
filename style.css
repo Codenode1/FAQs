@@ -310,8 +310,8 @@ footer .btn {
   }
 
   #illustration {
-    margin-left: 0;
-    float: right 50%;
+    margin-left: 25%;
+    align-items: center;
     width: 25%;
     height: auto;
   }
@@ -455,6 +455,10 @@ footer .btn {
 
   /* FAQs */
 
+  main{
+    padding-left: 57.28px;
+  }
+
   #header {
     margin-top: 0;
     width: 62px;
@@ -467,7 +471,7 @@ footer .btn {
   }
 
   #questions {
-    width: 315px;
+    width: 75%;
     height: 100px;
     font-family: "Poppins";
     font-style: normal;
@@ -484,7 +488,7 @@ footer .btn {
   .headings {
     width: 218px;
     height: 20px;
-    margin-left: 57.28px;
+    padding-left: 57.28px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
@@ -496,19 +500,13 @@ footer .btn {
   }
 
   .small-logo {
-    margin-right: 0;
+  
     float: left;
     width: 20px;
     height: 30px;
   }
 
-  #illustration {
-    float: none;
-    margin-left: 150px;
-    align-items: center;
-    width: 40%;
-    height: 25%;
-  }
+
 
   .answers {
     width: 327px;
