@@ -484,7 +484,7 @@ footer .btn {
     height: 36px;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     color: #8b20bb;
   }
@@ -501,7 +501,7 @@ footer .btn {
   }
 
   #questions li {
-    list-style-type: style;
+    list-style-type: none;
   }
 
   .headings {
@@ -527,7 +527,7 @@ footer .btn {
 
   #illustration {
     margin-left: 0;
-    align-items: center;
+    justify-content: center;
     width: 25%;
     height: auto;
   }
